@@ -1,0 +1,6 @@
+#ORG 1000H
+	MVI A, 04
+	MVI B, 05
+	ADD B
+	STA 2000
+	HLT
